@@ -15,8 +15,8 @@ git clone https://github.com/david1117dev/RunAsPtero
 2. Move the run.sh script to a place in your $PATH and make it executable. For example:
 
 ```bash
-cp RunAsPtero/run.sh /usr/local/bin/runasptero
-chmod +x /usr/local/bin/runasptero
+sudo cp RunAsPtero/run.sh /usr/local/bin/runasptero
+sudo chmod +x /usr/local/bin/runasptero
 ```
 
 3. You're good to go!
