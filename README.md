@@ -1,8 +1,10 @@
+![RunAsPtero Banner](assets/RunAsPtero.png)
+
 ## Introduction
 
 This is a simple script to test docker images like they were inside of Pterodactyl panel.
 
-It basically creates a docker container with the same settings as Pterodactyl would. So you can test you Pterodactyl eggs without a development panel.
+It basically creates a docker container with the same settings as Pterodactyl would. So you can test your Pterodactyl eggs without a development panel.
 
 ## Getting started
 
