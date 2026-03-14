@@ -9,7 +9,7 @@ It basically creates a docker container with the same settings as Pterodactyl wo
 1. Clone this repo:
 
 ```bash
-git clone https://github.com/david1117.dev/RunAsPtero
+git clone https://github.com/david1117dev/RunAsPtero
 ```
 
 2. Move the run.sh script to a place in your $PATH and make it executable. For example:
