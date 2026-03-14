@@ -10,16 +10,16 @@ It basically creates a docker container with the same settings as Pterodactyl wo
 
 1. Clone this repo:
 
-```bash
-git clone https://github.com/david1117dev/RunAsPtero
-```
+    ```bash
+    git clone https://github.com/david1117dev/RunAsPtero
+    ```
 
 2. Move the run.sh script to a place in your $PATH and make it executable. For example:
 
-```bash
-sudo cp RunAsPtero/run.sh /usr/local/bin/runasptero
-sudo chmod +x /usr/local/bin/runasptero
-```
+    ```bash
+    sudo cp RunAsPtero/run.sh /usr/local/bin/runasptero
+    sudo chmod +x /usr/local/bin/runasptero
+    ```
 
 3. You're good to go!
 
@@ -35,7 +35,7 @@ Examples:
 
 ```bash
 # Use the image's default CMD/ENTRYPOINT specified in the Dockerfile. (usually starts $STARTUP configured bellow)
-runasptero ghcr.io/org/your-image:latest
+runasptero ghcr.io/org/image:latest
 
 # Running something different.
 runasptero ghcr.io/org/image:latest bash
