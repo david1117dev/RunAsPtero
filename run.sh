@@ -30,7 +30,10 @@ fi
 
 sudo chown -R 999:999 ./.runasptero-data
 
-docker pull "$image" || exit 1
+if [[ "$image" =~ ^[^/]+\.[^/]+(:[0-9]+)?/ ]] || \
+   ! docker image inspect "$image" >/dev/null 2>&1; then
+  docker pull "$image" || exit 1
+fi
 
 if [[ -f "./.runasptero" ]]; then
   sed -e 's/^[[:space:]]*export[[:space:]]\+//' \
